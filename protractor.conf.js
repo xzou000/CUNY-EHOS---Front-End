@@ -2,7 +2,7 @@
 // https://github.com/angular/protractor/blob/master/lib/config.ts
 
 const { SpecReporter } = require('jasmine-spec-reporter');
-const baseurl = process.env.PORT || 'http://localhost:4200';
+const baseurl = process.env.PORT;
 exports.config = {
     allScriptsTimeout: 11000,
     specs: [

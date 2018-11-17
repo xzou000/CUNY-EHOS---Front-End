@@ -6,7 +6,7 @@ import 'rxjs/add/operator/toPromise';
 
 @Injectable()
 export class LabInspectionService {
-  domain = "https://polar-castle-68205.herokuapp.com/";
+  domain = "https://tranquil-castle-66129.herokuapp.com";
   constructor(private http: HttpClient) { }
 
   getRequests() : Promise<any> {

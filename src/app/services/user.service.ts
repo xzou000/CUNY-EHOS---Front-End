@@ -9,7 +9,7 @@ const httpOptions = {
 
 @Injectable()
 export class UserService {
-  domain = "https://polar-castle-68205.herokuapp.com/";
+  domain = "https://tranquil-castle-66129.herokuapp.com";
   
   constructor(private http: HttpClient) { }
   getUsers(): Promise<any> {
